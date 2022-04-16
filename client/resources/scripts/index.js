@@ -17,7 +17,7 @@ function getSongs(){
             card.innerHTML = `
                     <img src ="./resources/images/music.jpeg" class="card-img" alt="..."/>
                     <div class ="card-img-overlay">
-                    <h5 class = "card-title">${songs[i].songTitle}</h5>
+                    <h5 class = "card-title">${songs[i].songTitle} Favorited: ${songs[i].favorited}</h5>
                     </div>
                     `
             document.getElementById("cards").appendChild(card);
